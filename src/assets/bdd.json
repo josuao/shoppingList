@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "0",
+    "dateAjout": "Tue, 19 Aug 1975 23:15:30 GMT",
+    "product": "Jambon blanc",
+    "quantity": 1
+  },
+  {
+    "_id": "1",
+    "dateAjout": "Tue, 19 Aug 1975 23:15:30 GMT",
+    "product": "Bonhomme sourir",
+    "quantity": 1
+  }
+]

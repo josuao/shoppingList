@@ -1,0 +1,7 @@
+@import '@/style/variables.scss';
+
+@mixin container {
+    max-width: $full-container;
+    width: 100%;
+    margin: auto;
+}

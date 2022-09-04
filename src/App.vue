@@ -1,18 +1,35 @@
 <template>
+<top-header/>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Accueil</router-link> |
+    <router-link to="/login">Login</router-link> |
+    <router-link to="/secret">Secret</router-link> |
+    <router-link to="/shopping-list">Liste de course</router-link> |
+    <router-link to="/register">Register</router-link>
   </nav>
   <router-view/>
 </template>
-
+<script>
+import TopHeader from './components/TopHeader.vue'
+export default {
+  components: {
+    TopHeader
+  }
+}
+</script>
 <style lang="scss">
+@import '@/style/variables.scss';
+body{
+  margin: 0;
+  padding:0;
+  background: $light-grey
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #131516;
 }
 
 nav {

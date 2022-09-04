@@ -1,12 +1,15 @@
 <template>
-  <div class="home">
+  <div>
+    <h1>Secret</h1>
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'HomeView',
-
+    name: "SecretPage"
 }
 </script>
+
+<style>
+
+</style>
